@@ -1,3 +1,45 @@
 .header{
+  position: relative;
+  display: block;
+  float: left;
+  width: 100%;
+  background: url("../img/head-bg.png");
+  &__menu{
+    float: right;
+    position: relative;
+    list-style: none;
+    margin-top: 38px;
+  li{
+    display: inline-block;
+    margin-left: 96px;
+    .active{
+      padding: 20px 40px;
+      background: #fff;
+      color: #43cb83;
+      font-weight: 700;
+      transition: 300ms ease;
+      border-radius: 30px;
+      margin:  -20px -40px;
+    }
+    a{
+      color: #fff;
+      font-size: 18px;
+      text-transform: uppercase;
+      display: block;
+      transition: 300ms ease;
+      position: relative;
+      border-radius: 30px;
 
+      &:hover{
+        padding: 20px 40px;
+        background: #fff;
+        color: #43cb83;
+        font-weight: 700;
+        transition: 300ms ease;
+        margin: -20px -40px;
+        border-radius: 30px;
+      }
+    }
+  }
+  }
 }
