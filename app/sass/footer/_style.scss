@@ -1,0 +1,75 @@
+.footer{
+  display: block;
+  position: relative;
+  width: 100%;
+  float: left;
+  background: url("../img/footer-bg.jpg") no-repeat;
+  background-size: cover;
+
+  h1{
+    font-size: 24px;
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 40px 0 10px 0;
+    z-index: 1;
+  }
+  h2{
+    font-size: 24px;
+    color: #fff;
+    text-align: center;
+    margin: 0 0 35px 0;
+    z-index: 2;
+  }
+  &__social{
+    text-align: center;
+    z-index: 2;
+    a{
+      display: inline-block;
+      height: 57px;
+      width: 57px;
+      border-radius: 50%;
+      border: 1px solid #fff;
+      background: transparent;
+      margin: 0 20px;
+      line-height: 56px;
+      color: #fff;
+      font-size: 26px;
+      @include breakpoint(max-width 568px){
+        margin-bottom: 30px;
+      }
+      &:hover{
+        background: #fff;
+        color: #43cb83;
+        transition: 300ms ease;
+      }
+    }
+  }
+  &__link{
+    text-align: center;
+    a{
+      color: #fff;
+      font-size: 19px;
+      margin: 42px 21px 36px 21px;
+      display: inline-block;
+      @include breakpoint(max-width 568px){
+        margin: 20px 20px;
+      }
+    }
+  }
+  &__fdh{
+    color: #fff;
+
+    margin-bottom: 40px;
+    h1{
+      font-size: 15px;
+      margin: 0;
+    }
+  }
+  .wave-hand{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 0;
+  }
+}

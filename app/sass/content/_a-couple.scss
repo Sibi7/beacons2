@@ -83,8 +83,12 @@
       margin: 20px auto 45px auto;
       outline: none;
       border: none;
-      box-shadow: 0 15px 30px #6e907f;
+      transition: 300ms ease;
+      &:hover{
+        box-shadow: 0 15px 30px #6e907f;
+        transition: 500ms ease;
+        transform: scale(1.1);
+      }
     }
-
   }
 }

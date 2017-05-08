@@ -1,23 +1,102 @@
 @media only screen and (max-width: 1024px) {
-	
+
 }
 
 @media only screen and (max-width: 980px) {
-	
+
 }
 
 @media only screen and (max-width: 770px) {
-	
+  .header__img {
+    display: none;
+  }
+  .header__menu{
+    display: block;
+    width: 100%;
+  }
+  .header__menu li {
+    display: inline-block;
+    margin-left: 62px;
+  }
+  .header__text {
+    margin-top: 30px;
+    display: block;
+    float: left;
+  }
+  .footer .wave-hand {
+    display: none;
+  }
 }
 
 @media only screen and (max-width: 736px) {
-	
+  .header__menu ul li {
+    display: block;
+    text-align: center;
+  }
+  .header__menu ul {
+    padding: 0;
+    margin: 64px 0;
+  }
+  .header__img {
+    display: none;
+  }
+  .header__menu {
+    width: 100%;
+    position: relative;
+    margin: 20px 0;
+    padding: 0;
+  }
+  .header__menu li {
+    display: block;
+    margin: 40px 0;
+    text-align: center;
+  }
+  .header__menu li .active {
+    padding: 15px 15px;
+    width: 100%;
+  }
+  .header__menu li a:hover {
+    padding: 15px 15px;
+    width: 100%;
+  }
+  .header__text {
+    margin-top: 0;
+    float: left;
+  }
+  .header__text h1 {
+    text-align: center;
+    margin-top: 30px;
+  }
+  .header__menu li a {
+    display: inline-block;
+  }
+
+  .footer .wave-hand {
+    display: none;
+  }
+  .couple__form {
+
+    width: 100%;
+
+  }
+  .footer h1, .footer h2 {
+    font-size: 20px;
+  }
+  .couple .active, .couple__step {
+    width: 80px;
+    height: 50px;
+    line-height: 49px;
+  }
+  .couple__step {
+    font-size: 20px;
+  }
+
 }
 
 @media only screen and (max-width: 500px) {
-	
+
 }
 
 @media only screen and (max-width: 320px) {
-	
+
 }
