@@ -3,7 +3,8 @@
   display: block;
   float: left;
   width: 100%;
-  background: url("../img/head-bg.png");
+  background: url("../img/head-bg.png") no-repeat;
+  background-size: cover;
   &__menu {
     float: right;
     position: relative;

@@ -1,0 +1,90 @@
+.couple {
+  display: block;
+  position: relative;
+  float: left;
+  width: 100%;
+  background: url("../img/bg-beacons.png") no-repeat;
+  background-size: cover;
+  h1 {
+    text-align: center;
+    color: #171717;
+    font-size: 36px;
+    font-weight: 700;
+    margin-top: 75px;
+    line-height: 49px;
+    margin-bottom: 20px;
+  }
+  .active {
+    width: 140px;
+    height: 50px;
+    background: #fff;
+    border-radius: 30px;
+    line-height: 49px;
+    box-shadow: 0 15px 30px #709f90;
+  }
+  &__step {
+    text-align: center;
+    font-weight: 900;
+    font-size: 22px;
+    text-transform: uppercase;
+    width: 140px;
+    height: 50px;
+    line-height: 49px;
+    margin-top: 0;
+  }
+  &__text {
+    font-size: 24px;
+    font-weight: 700;
+  }
+  &__form {
+    display: block;
+    position: relative;
+    width: 670px;
+    margin: 0 auto;
+    z-index: 2;
+    input {
+      width: 100%;
+      display: block;
+      border-radius: 30px;
+      height: 50px;
+      border: 2px solid #fff;
+      margin: 25px 0;
+      background: url("../img/form-bg.png") no-repeat center bottom;
+      background-size: cover;
+      box-sizing: border-box;
+      &::placeholder {
+        opacity: 1;
+      }
+    }
+    input[type="text"] {
+      padding-left: 38px;
+      font-size: 24px;
+      color: #282828;
+      font-weight: 700;
+
+    }
+    input[type="email"] {
+      padding-left: 38px;
+      font-size: 24px;
+      color: #282828;
+      font-weight: 700;
+      opacity: 1;
+    }
+    button {
+      display: block;
+      border-radius: 30px;
+      width: 200px;
+      height: 55px;
+      background: #fff;
+      color: #43cb83;
+      font-size: 27px;
+      font-weight: 700;
+      text-transform: uppercase;
+      margin: 20px auto 45px auto;
+      outline: none;
+      border: none;
+      box-shadow: 0 15px 30px #6e907f;
+    }
+
+  }
+}
