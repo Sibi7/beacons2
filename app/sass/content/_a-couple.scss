@@ -10,6 +10,9 @@
     right: 0;
     height: 100%;
     top: 0;
+    @include breakpoint(max-width 736px){
+      display: none;
+    }
     img{
       object-fit: cover;
       width: 100%;
