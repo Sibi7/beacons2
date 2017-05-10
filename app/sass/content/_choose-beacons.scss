@@ -18,7 +18,7 @@
     margin-bottom: 20px;
     &:hover {
       transition: 500ms ease;
-      transform: scale(1.1);
+      transform: scale(1.05);
       box-shadow: 0 10px 30px rgba(0, 0, 0, .4);
     }
     &:hover button{
@@ -29,8 +29,8 @@
     }
     h1 {
       font-size: 20px;
-      margin-top: 18px;
-      margin-bottom: 30px;
+      margin-top: 15px;
+      margin-bottom: 15px;
       text-transform: uppercase;
       font-weight: 500;
       padding: 0 20px;
@@ -39,7 +39,7 @@
     &__img {
       width: 150px;
       margin: 0 auto;
-      height: 160px;
+      height: 140px;
       img {
         width: 100%;
         vertical-align: middle;
@@ -57,7 +57,7 @@
       margin-top: 15px;
       padding: 0 15px;
       text-align: center;
-      height: 160px;
+      height: 150px;
     }
     .wrapper-counter {
       display: block;
@@ -113,7 +113,7 @@
       width: 200px;
       height: 40px;
       display: block;
-      margin:20px auto 30px auto;
+      margin:20px auto 20px auto;
       font-size: 16px;
       font-weight: 700;
       color: #6b6b6b;

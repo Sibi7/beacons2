@@ -5,7 +5,9 @@
   float: left;
   background: url("../img/footer-bg.jpg") no-repeat;
   background-size: cover;
-
+  .col-md-12{
+    z-index: 5;
+  }
   h1{
     font-size: 24px;
     color: #fff;
@@ -71,5 +73,8 @@
     bottom: 0;
     left: 0;
     z-index: 0;
+    img{
+      width: 83%;
+    }
   }
 }
