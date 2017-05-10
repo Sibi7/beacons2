@@ -13,7 +13,7 @@
     color: #fff;
     text-align: center;
     text-transform: uppercase;
-    margin: 40px 0 10px 0;
+    margin: 30px 0 0 0;
     z-index: 1;
   }
   h2{
@@ -52,7 +52,7 @@
     a{
       color: #fff;
       font-size: 19px;
-      margin: 42px 21px 36px 21px;
+      margin: 30px 21px 15px ;
       display: inline-block;
       @include breakpoint(max-width 568px){
         margin: 20px 20px;
@@ -61,8 +61,7 @@
   }
   &__fdh{
     color: #fff;
-
-    margin-bottom: 40px;
+    margin-bottom: 15px;
     h1{
       font-size: 15px;
       margin: 0;

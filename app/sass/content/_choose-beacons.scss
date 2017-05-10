@@ -8,14 +8,13 @@
     font-size: 36px;
     font-weight: 700;
     color: #282828;
-    margin-top: 70px;
-    margin-bottom: 60px;
+    margin: 30px 0;
   }
   &__item {
     width: 100%;
     border: 1px solid #e3e3e3;
     transition: 300ms ease;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
     &:hover {
       transition: 500ms ease;
       transform: scale(1.05);
